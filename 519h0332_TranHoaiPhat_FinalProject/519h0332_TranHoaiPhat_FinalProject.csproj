@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{804FF16D-065C-40F9-95B6-421E123DEC76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_519h0332_TranHoaiPhat_FinalProject</RootNamespace>
+    <AssemblyName>519h0332_TranHoaiPhat_FinalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FinalC_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalC_DBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalC_DBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalC_DBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalC_DBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalC_DBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalC_DBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalC_DBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InforCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InforCustomer.Designer.cs">
+      <DependentUpon>InforCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputSheet.Designer.cs">
+      <DependentUpon>InputSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputSheetMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputSheetMonth.Designer.cs">
+      <DependentUpon>InputSheetMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputSheet.Designer.cs">
+      <DependentUpon>OutputSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputSheetMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputSheetMonth.Designer.cs">
+      <DependentUpon>OutputSheetMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status.Designer.cs">
+      <DependentUpon>Status.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InforCustomer.resx">
+      <DependentUpon>InforCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputSheet.resx">
+      <DependentUpon>InputSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputSheetMonth.resx">
+      <DependentUpon>InputSheetMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputSheet.resx">
+      <DependentUpon>OutputSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputSheetMonth.resx">
+      <DependentUpon>OutputSheetMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Status.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FinalC_DBDataSet.xsc">
+      <DependentUpon>FinalC_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet.xss">
+      <DependentUpon>FinalC_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet1.xsc">
+      <DependentUpon>FinalC_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet1.xss">
+      <DependentUpon>FinalC_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet2.xsc">
+      <DependentUpon>FinalC_DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet2.xss">
+      <DependentUpon>FinalC_DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet3.xsc">
+      <DependentUpon>FinalC_DBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet3.xss">
+      <DependentUpon>FinalC_DBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet4.xsc">
+      <DependentUpon>FinalC_DBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet4.xss">
+      <DependentUpon>FinalC_DBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet5.xsc">
+      <DependentUpon>FinalC_DBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet5.xss">
+      <DependentUpon>FinalC_DBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet6.xsc">
+      <DependentUpon>FinalC_DBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="FinalC_DBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinalC_DBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinalC_DBDataSet6.xss">
+      <DependentUpon>FinalC_DBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
